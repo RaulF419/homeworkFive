@@ -1,0 +1,81 @@
+
+
+body {
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 16px;
+  line-height: 1;
+
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 5;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+  
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid rgb(8, 8, 8);
+  
+}
+
+.hour {
+  background-color: #b9bdb5;
+  color: #000000;
+  border-top: 1px dashed #000000;
+
+}
+
+.past {
+  background-color: #b9bdb5 ;
+  color: rgb(5, 5, 5);
+}
+
+.present {
+    background: linear-gradient(to top, #74ff33 0%, #b9bdb5 100%);
+    color: rgb(12, 12, 12);
+}
+
+.future {
+  background-color: #74ff33;
+  color: rgb(22, 21, 21);
+  
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #b9bdb5;
+  color: rgb(14, 13, 13);
+
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+ 
+}
